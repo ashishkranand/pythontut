@@ -1,0 +1,7 @@
+f=open("ashish.txt")
+# print(f.tell())
+print(f.readline())
+f.seek(0)
+print(f.readline())
+# print(f.tell())
+f.close()
