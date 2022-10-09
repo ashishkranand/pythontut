@@ -24,7 +24,7 @@ class Employee:
         print("This is good."+string)
 
 emp = Employee("Ashish",78,"jkh")
-print(emp._Employee__private)
+print(emp._Employee__private) #Name mangling
 
 
 
